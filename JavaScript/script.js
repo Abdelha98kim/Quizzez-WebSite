@@ -21,7 +21,6 @@ next.addEventListener("click", function(){
     reponse3.innerHTML = (ques3rep[i]);
     reponse4.innerHTML = (ques4rep[i]);
     i++;
-    j++;
 });
 
     
