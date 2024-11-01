@@ -29,9 +29,33 @@
                 </ul>
             </div>
         </nav>
-        <section class="h-[calc(100vh-4rem)] w-full flex items-center justify-center">
-            <h1  class="text-white font-[poppins] bg-orange-700  w-60 h-20 flex items-center justify-center rounded-lg"><a href="#" class="text-xl py-6 px-16">Start Quizz</a></h1>
+        <!-- <section class="h-[calc(100vh-4rem)] w-full flex items-center justify-center">
+            <h1  class="text-white font-[poppins] bg-orange-700  w-60 h-20 flex items-center justify-center rounded-lg"><a class="text-xl py-6 px-16" href="#quizzez">Start Quizz</a></h1>
+        </section> -->
+
+        <section id="quizzez" class="h-screen flex flex-col justify-center bg-slate-900 text-white">
+            <h1 class="text-center mt-5 text-5xl font-[poppins]">You Quizzez</h1>
+            <div class="flex gap-2 text-xl justify-center mt-10">
+                <p>score</p>
+                <p id="score">0</p>
+            </div>
+            <div id="question">
+               <h1 id="question-qtnt" class="text-5xl mt-10 text-center mb-5 font-[poppins] text-orange-500 font-bold">Click to Start</h1>
+            </div>
+            <div id="reponse" class="flex gap-4 justify-center">
+                <button class="border-solid border-2 border-white p-10 font-[poppins] mb-5" id="reponse1"></button>
+                <button class="border-solid border-2 border-white p-10 font-[poppins] mb-5" id="reponse2"></button>
+                <button class="border-solid border-2 border-white p-10 font-[poppins] mb-5" id="reponse3"></button>
+                <button class="border-solid border-2 border-white p-10 font-[poppins] mb-5" id="reponse4"></button>
+            </div>
+
+            <button id="next">
+                Start
+            </button>
+
         </section>
     </main>
+
+    <script src="../JavaScript/script.js"></script>
 </body>
 </html>
